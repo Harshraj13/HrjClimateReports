@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HrjClimateReports/static/css/main.af77aaf6.css",
+    "main.js": "/HrjClimateReports/static/js/main.5f94a512.js",
+    "static/js/787.3eb48f7a.chunk.js": "/HrjClimateReports/static/js/787.3eb48f7a.chunk.js",
+    "static/media/3.png": "/HrjClimateReports/static/media/3.0e45e91ac2ca20486cdc.png",
+    "index.html": "/HrjClimateReports/index.html",
+    "main.af77aaf6.css.map": "/HrjClimateReports/static/css/main.af77aaf6.css.map",
+    "main.5f94a512.js.map": "/HrjClimateReports/static/js/main.5f94a512.js.map",
+    "787.3eb48f7a.chunk.js.map": "/HrjClimateReports/static/js/787.3eb48f7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af77aaf6.css",
+    "static/js/main.5f94a512.js"
+  ]
+}
