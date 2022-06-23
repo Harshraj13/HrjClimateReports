@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 6rem;
+    color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchBox{
+    text-align: center;
+    font-size: 1.6rem;
+    /* border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.4); */
+
+
+}
+input{
+    border-radius: 25px;
+    border: 1px solid rgba(255 , 255, 255, 0.8);
+    background: rgba(255, 255, 255,0.1);
+    padding: .5rem 1rem;
+    width: 75vw;
+    top: 20px;
+    position: relative;
+}
+.app{
+    /* background: url("./assets/3.png") no-repeat;    
+    background-size: cover; */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app::before{
+    content: '';
+    background: url("./assets/3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.container{
+    max-width: 700px;
+    max-height: 700px;
+}
+.top ,.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.city{
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(#eee, rgb(163, 21, 21));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+    padding: 20px;
+    margin : 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+div ~ p{
+    margin-left: 10px;
+}
+.bottom{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: aliceblue;
+}
+footer{
+    position: absolute;
+    display: inline-block;
+
+    background-color: black;
+    color: antiquewhite;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+
 }

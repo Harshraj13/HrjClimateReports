@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 73.6333,
+        "lat": 15.8667
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 297.04,
+        "feels_like": 297.86,
+        "temp_min": 297.04,
+        "temp_max": 297.04,
+        "pressure": 1006,
+        "humidity": 91,
+        "sea_level": 1006,
+        "grnd_level": 997
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.57,
+        "deg": 254,
+        "gust": 3.74
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1655898784,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1655858114,
+        "sunset": 1655905168
+    },
+    "timezone": 19800,
+    "id": 1253257,
+    "name": "Vengurla",
+    "cod": 200
+}
